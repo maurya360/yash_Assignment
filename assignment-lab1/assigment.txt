@@ -1,0 +1,6 @@
+[(a+(b*(c/d)))-e] -- Valid expression
+
+
+
+[(a+(b*(c/d))-e] -- Invalid expression: do not have )
+[(a+b*(c/d)))-e] -- Invalid expression: do not have (
