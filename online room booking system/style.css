@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(room.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    color: rgb(83, 198, 233);
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.register {
+    background: rgb(216, 75, 153);
+    width: 400px;
+    margin: 0px 0px 0px 430px;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#regi label,
+input,
+select {
+    margin-left: 50px;
+}
+
+#sub {
+    margin-left: 200px;
+    padding: 10px 40px 5px 40px;
+    background-color: rgb(102, 11, 75);
+    color: white;
+}
+
+label {
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+#ph {
+    margin-left: 50px;
+    padding: 5px 10px;
+}
+
+#n {
+    margin-left: 10px;
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(49, 185, 226);
+    padding: 5px;
+    float: left;
+}
+
+th {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Arial;
+    color: rgb(245, 35, 245);
+}
+
+td {
+    font-size: 25px;
+    color: rgb(238, 232, 234);
+    font-weight: 400;
+    font-family: Georgia;
+}

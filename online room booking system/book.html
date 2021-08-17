@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>online room book system</title>
+    <link rel="Stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>
+        <<--Online Room Book System-->></h1>
+    <div class="register">
+        <h2>Room Register</h2>
+        <from id="regi">
+            <label>From-Date:</label><br>
+            <input type="date" placeholder="select date" name="date" id="date"><br><br>
+            <label>To-Date:</label><br>
+            <input type="date" placeholder="select date" name="date" id="todate"><br><br>
+            <label>Purpose:</label><br>
+            <input type="text" placeholder="enter Purpose" name="pur" id="Purpose"><br><br>
+            <label>Number of people:</label><br>
+            <input type="number" placeholder="enter the number of people" name="np" id="np"><br><br>
+            <label>Employee-ID:</label><br>
+            <input type="email" placeholder="enter you email" name="email" id="eid"><br><br>
+            <label>phone-number:</label><br>
+            <select id="ph">
+                <option>+91</option>
+                <option>+92</option>
+                <option>+93</option>
+                <option>+94</option>
+            </select>
+            <input type="number" placeholder="enter the mobile number" name="number" id="n"><br><br>
+
+            <label>Room name:</label><br>
+            <input type="text" placeholder="enter room name" name="rn" id="rn"><br><br>
+            <label>Duration:</label><br>
+            <input type="time" placeholder="enter time" name="time" id="time"><br><br>
+            <input type="submit" value="Book_Room" id="sub" onclick="submit()">
+        </from>
+    </div>
+    <table id="display">
+        <tr>
+            <th>From-date</th>
+            <th>To-date</th>
+            <th>Purpose</th>
+        </tr>
+    </table>
+    <script src="roomscript.js"></script>
+</body>
+
+</html>
